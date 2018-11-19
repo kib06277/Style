@@ -1,4 +1,4 @@
-# Style
+# SELECTOR
 
 各種狀況變換圖片的 SELECTOR
 
