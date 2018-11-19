@@ -19,3 +19,5 @@ android：state_window_focused：設置當前窗口是否獲得焦點狀態，tr
 android：state_activated：設置是否被激活狀態，真表示被激活，虛表示未激活，API Level 11及以上才支持，可通過代碼調用控件的setActivated（boolean）方法設置是否激活該控件
 
 android：state_hovered：設置是否鼠標在上面滑動的狀態，真表示鼠標在上面滑動，默認為false，API等級14及以上才支持
+
+參考：https://developer.android.com/guide/topics/resources/color-list-resource
