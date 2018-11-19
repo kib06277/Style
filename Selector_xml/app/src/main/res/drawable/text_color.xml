@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 失去焦點時 -->
+    <item android:drawable="@android:color/black" android:state_window_focused="false" />
+    <!-- 不可用時 -->
+    <item android:drawable="@android:color/holo_red_dark" android:state_enabled="false" />
+    <!-- 點擊時 -->
+    <item android:drawable="@android:color/secondary_text_dark" android:state_pressed="true" />
+    <!-- 被選中時 -->
+    <item android:drawable="@android:color/darker_gray" android:state_selected="true" />
+    <!-- 被激活時 -->
+    <item android:drawable="@android:color/holo_red_light" android:state_activated="true" />
+    <!-- 默認時 -->
+    <item android:drawable="@android:color/primary_text_dark" />
+    <!-- 聚焦時 -->
+    <item android:drawable="@android:color/holo_green_dark" android:state_focused="true" />
+    <!-- 被都勾選時，只能在 CheckBox 和 RadioButton  -->
+    <item android:drawable="@android:color/holo_green_light" android:state_checked="true" />
+    <!-- 勾選是否可用狀態  -->
+    <item android:drawable="@color/colorPrimaryDark" android:state_checkable="true" />
+</selector>

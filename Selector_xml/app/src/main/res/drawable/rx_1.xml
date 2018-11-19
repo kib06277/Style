@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 失去焦點時 -->
+    <item android:drawable="@drawable/tx_01_click" android:state_window_focused="false" />
+    <!-- 不可用時 -->
+    <item android:drawable="@drawable/tx_02_click" android:state_enabled="false" />
+    <!-- 點擊時 -->
+    <item android:drawable="@drawable/tx_03_click" android:state_pressed="true" />
+    <!-- 被選中時 -->
+    <item android:drawable="@drawable/tx_04_click" android:state_selected="true" />
+    <!-- 被激活時 -->
+    <item android:drawable="@drawable/tx_05_click" android:state_activated="true" />
+    <!-- 默認時 -->
+    <item android:drawable="@drawable/tx_06_click" />
+    <!-- 聚焦時 -->
+    <item android:drawable="@drawable/tx_07_click" android:state_focused="true" />
+    <!-- 被都勾選時，只能在 CheckBox 和 RadioButton  -->
+    <item android:drawable="@drawable/tx_08_click" android:state_checked="true" />
+    <!-- 勾選是否可用狀態  -->
+    <item android:drawable="@drawable/tx_09_click" android:state_checkable="true" />
+
+</selector>
